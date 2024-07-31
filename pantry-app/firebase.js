@@ -1,12 +1,13 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore'
+import { api_Key } from "./credentials";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBSwul8rLRf6L_nc1x3IqbXQsMUvqybFGU",
+  apiKey: api_Key,
   authDomain: "hs-pantry-app-944ce.firebaseapp.com",
   projectId: "hs-pantry-app-944ce",
   storageBucket: "hs-pantry-app-944ce.appspot.com",
